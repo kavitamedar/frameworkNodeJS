@@ -1,0 +1,26 @@
+{
+  "name": "wdio",
+  "version": "1.0.0",
+  "description": "WebDriverIOFrameWork",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Kavita",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "request-promise": "^4.2.4",
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.7.13",
+    "@wdio/mocha-framework": "^5.7.13",
+    "@wdio/sync": "^5.7.13",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-jasmine-framework": "^0.3.8",
+    "wdio-json-reporter": "^0.4.0",
+    "wdio-selenium-standalone-service": "0.0.12"
+  }
+}
